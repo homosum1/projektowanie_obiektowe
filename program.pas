@@ -24,11 +24,11 @@ procedure bubbleSort(var arr: IntArray);
 var
   i, j, swap, temp: Integer;
 begin
-  for i := 1 to SIZE do
+  for i := 1 to SIZE-1 do
     begin
       swap := 0;
 
-      for j := 0 to SIZE do
+      for j := 1 to SIZE-i do
       begin
         if arr[j] > arr[j + 1] then
         begin
