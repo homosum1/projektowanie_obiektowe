@@ -5,7 +5,7 @@
 
 ✅ 3.0 Procedura do generowania 50 losowych liczb od 0 do 100: [commit](https://github.com/homosum1/projektowanie_obiektowe/commit/83d0242ee89044b32e6981b93ac336baca671ba2)
 
-✅ 3.5 Procedura do sortowania liczb [commit](https://github.com/homosum1/projektowanie_obiektowe/commit/0de264285cc7b7da369b0912ca53095be4fd9cb0)
+✅ 3.5 Procedura do sortowania liczb [commit](https://github.com/homosum1/projektowanie_obiektowe/commit/02877607962a3a2109fcf85c31422826ef20376a)
 
 ✅ 4.0 Dodanie parametrów do procedury losującej określającymi zakres losowania: od, do, ile
 
