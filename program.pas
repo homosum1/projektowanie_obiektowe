@@ -20,32 +20,32 @@ begin
     arr[i] := Random(100);
 end;
   
-// procedure bubbleSort(var arr: IntArray);
-// var
-//   i, j, swap, temp: Integer;
-// begin
-//   for i := 1 to SIZE do
-//     begin
-//       swap := 0;
+procedure bubbleSort(var arr: IntArray);
+var
+  i, j, swap, temp: Integer;
+begin
+  for i := 1 to SIZE do
+    begin
+      swap := 0;
 
-//       for j := 0 to SIZE do
-//       begin
-//         if arr[j] > arr[j + 1] then
-//         begin
-//           temp := arr[j];
-//           arr[j] := arr[j + 1];
-//           arr[j + 1] := temp; 
+      for j := 0 to SIZE do
+      begin
+        if arr[j] > arr[j + 1] then
+        begin
+          temp := arr[j];
+          arr[j] := arr[j + 1];
+          arr[j + 1] := temp; 
 
-//           swap := 1;
-//         end;
+          swap := 1;
+        end;
 
-//       end;
+      end;
 
-//       if swap = 0 then
-//         Break;
+      if swap = 0 then
+        Break;
 
-//     end;
-// end;
+    end;
+end;
 
 procedure printArray(var arr: IntArray);
 var
@@ -87,11 +87,11 @@ begin
   Writeln;
   printArray(randArray);
 
-//   bubbleSort(randArray);
+  bubbleSort(randArray);
 
-//   Writeln;
-//   Write('Wyloswane liczby po sortowaniu:');
-//   Writeln;
-//   printArray(randArray);
+  Writeln;
+  Write('Wyloswane liczby po sortowaniu:');
+  Writeln;
+  printArray(randArray);
 end.
 
