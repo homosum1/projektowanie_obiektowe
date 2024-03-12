@@ -14,4 +14,4 @@
 ❌ 5.0 Skrypt w bashu do uruchamiania aplikacji w Pascalu via docker
 
 
-Kod: (folder)[https://github.com/homosum1/projektowanie_obiektowe/tree/main/zadanie01]
+Kod: [folder](https://github.com/homosum1/projektowanie_obiektowe/tree/main/zadanie01)
