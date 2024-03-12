@@ -7,7 +7,7 @@ type
   IntArray = array[1..SIZE] of Integer;
 
 var
-//   low, high: Integer;
+  low, high: Integer;
   randArray: IntArray;
 
 
@@ -16,8 +16,7 @@ var
   i: Integer;
 begin  
   for i := 1 to SIZE do
-    // arr[i] := Random(high - low + 1) + low;
-    arr[i] := Random(100);
+    arr[i] := Random(high - low + 1) + low;
 end;
   
 procedure bubbleSort(var arr: IntArray);
@@ -59,31 +58,37 @@ begin
 end;
 
 begin
-//   if ParamCount <> 2 then
-//   begin
-//     Writeln('Nalezy podac w parametrach dolny i gorny zakres pracy programu');
-//     Halt;
-//   end;
+  if ParamCount <> 2 then
+  begin
+    Writeln('Nalezy podac w parametrach dolny i gorny zakres pracy programu');
+    Halt;
+  end;
 
-//   Val(ParamStr(1), low);
-//   Val(ParamStr(2), high);
+  Val(ParamStr(1), low);
+  Val(ParamStr(2), high);
 
-//   if (low <= 0) or (high <= 0) then 
-//   begin
-//     writeln('Argumenty musza byc liczbami naturalnymi wiekszymi od zera');
-//     Halt;
-//   end;
+  if (low <= 0) or (high <= 0) then 
+  begin
+    writeln('Argumenty musza byc liczbami naturalnymi wiekszymi od zera');
+    Halt;
+  end;
 
-//   if high < low then
-//   begin
-//     high := low;
-//     Val(ParamStr(2), low);
-//   end;
+  if low = high then
+  begin
+    writeln('Dolny i gorny zakres nie moga byc takie same');
+    Halt;
+  end;
+  
+
+  if high < low then
+  begin
+    high := low;
+    Val(ParamStr(2), low);
+  end;
 
   Randomize;
   
-//   fillArrayWithRandom(randArray, low, high);
-  fillArrayWithRandom(randArray, 0, 0);
+  fillArrayWithRandom(randArray, low, high);
 
   Write('Wyloswane liczby przed sortowaniem:');
   Writeln;
