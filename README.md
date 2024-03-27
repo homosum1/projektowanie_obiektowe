@@ -21,9 +21,9 @@ Kod: [folder](https://github.com/homosum1/projektowanie_obiektowe/tree/main/zada
 
 Należy stworzyć aplikację webową na bazie frameworka Symfony na obrazie kprzystalski/projobj-php:latest. Baza danych dowolna, sugeruję SQLite.
 
-❌ 3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z CRUD
+✅ 3.0 Należy stworzyć jeden model z kontrolerem z produktami, zgodnie z CRUD
 
-❌ 3.5 Należy stworzyć skrypty do testów endpointów via curl
+✅ 3.5 Należy stworzyć skrypty do testów endpointów via curl
 
 ❌ 4.0 Należy stworzyć dwa dodatkowe kontrolery wraz z modelami
 
