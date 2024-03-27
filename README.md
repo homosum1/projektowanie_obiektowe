@@ -31,3 +31,5 @@ Należy stworzyć aplikację webową na bazie frameworka Symfony na obrazie kprz
 
 ❌ 5.0 Stworzenie panelu administracyjnego z mockowanym logowaniem
 
+Kod: [folder](https://github.com/homosum1/projektowanie_obiektowe/tree/main/zadanie02)
+
