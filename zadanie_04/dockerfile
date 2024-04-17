@@ -1,0 +1,18 @@
+
+FROM golang:latest
+
+WORKDIR /app
+
+RUN apt-get update && apt-get install -y git
+RUN go mod init zadanie_4_ebiz.com/app
+RUN go get -u github.com/labstack/echo/v4
+
+
+EXPOSE 8080
+
+ENTRYPOINT ["tail", "-f", "/dev/null"]
+
+
+# docker build -t zadanie_4_ebiz:v1 .
+# docker run -p 8080:8080 -it zadanie_4_ebiz:v1
+
