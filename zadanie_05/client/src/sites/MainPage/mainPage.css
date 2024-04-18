@@ -1,0 +1,39 @@
+.mainPage {
+  margin-top: 65px;
+  padding-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.mainPage__item {
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-bottom: 1px solid gray;
+  display: flex;
+  justify-content: space-between;
+}
+
+.mainPage__item__left span {
+  border-right: 1px solid gray;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 22px;
+}
+
+.mainPage__item__right {
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.mainPage__item__right span {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.mainPage__item__right span:hover {
+  color: green;
+}
+
+.mainPage .data {
+  margin-top: 20px;
+}

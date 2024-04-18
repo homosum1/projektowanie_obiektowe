@@ -1,0 +1,49 @@
+.mainPage {
+    margin-top: 65px;
+    padding-top: 20px;
+
+    margin-left: 40px;
+    margin-right: 40px;
+
+
+
+    &__item {
+        padding-top: 7px;
+        padding-bottom: 7px;
+
+        border-bottom: 1px solid gray;
+
+
+        display: flex;
+        justify-content: space-between;
+        &__left {
+
+            span {
+                border-right: 1px solid gray;
+
+                padding-left: 15px;
+                padding-right: 15px;
+                font-size: 22px;
+            }
+        }
+
+        &__right {
+            font-weight: 500;
+            font-size: 25px;
+            
+            span {
+                margin-right: 20px;
+
+                cursor: pointer;
+
+                &:hover {
+                    color: green;
+                }
+            }
+        }
+    }
+
+    .data {
+        margin-top: 20px;
+    }
+}

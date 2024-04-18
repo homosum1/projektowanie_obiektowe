@@ -1,0 +1,17 @@
+.Payment {
+  margin-top: 65px;
+  padding-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.Payment__buy-button {
+  cursor: pointer;
+  padding: 7px;
+  background-color: #dadada;
+  width: 115px;
+}
+
+.Payment__buy-button:hover {
+  background-color: #bcbcbc;
+}
