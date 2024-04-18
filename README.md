@@ -88,7 +88,7 @@ Należy stworzyć aplikację kliencką wykorzystując bibliotekę React.js. W ra
 
 ❌ 5.0 Należy wykorzystać axios’a oraz dodać nagłówki pod CORS
 
-Kod: [folder](https://github.com/homosum1/projektowanie_obiektowe/tree/main/zadanie05)
+Kod: [folder](https://github.com/homosum1/projektowanie_obiektowe/tree/main/zadanie_05)
 
----
+
 
