@@ -1,0 +1,27 @@
+#!/bin/bash
+
+FILES=$(git diff --cached --name-only --diff-filter=ACM | grep "\.(js|ts|tsx)$")
+
+if [ "$FILES" = "" ]; then
+  echo "Brak nowych plików do sprawdzenia przez ESLint."
+  exit 0
+fi
+
+PASSED=true
+
+for FILE in $FILES
+do
+  ./node_modules/.bin/eslint "$FILE"
+
+  if [ $? -ne 0 ]; then
+    PASSED=false
+  fi
+done
+
+if ! $PASSED; then
+  echo "ESLint zwrócił bład - commit został anulowany "
+  exit 1
+fi
+
+echo "ESLint nie zwrócił błędu - commit zostaje wykonany."
+exit 0
