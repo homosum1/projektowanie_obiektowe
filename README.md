@@ -90,6 +90,8 @@ Należy stworzyć aplikację kliencką wykorzystując bibliotekę React.js. W ra
 
 Kod: [folder](https://github.com/homosum1/projektowanie_obiektowe/tree/main/zadanie_05)
 
+---
+
 ### Zadanie 6 Zapaszki Sonar (JS)
 
 W ramach zadania VI należy zredukować błędy typu: Bugs, Security Hotspots, Vulnerabilities oraz Code Smells. Błędy powinny być efektem statycznej analizy kodu za pomocą rozwiązania Sonar Cloud (https://sonarcloud.io/). Dodatkowo należy w Readme.md na każdym repozytorium dodać badge SonarCloud do powyższych czterech typów błędów (https://sonarcloud.io/project/information?id=). Należy sprawdzić kod projektu IV z kodem w React’cie.
