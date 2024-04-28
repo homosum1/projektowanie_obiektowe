@@ -106,3 +106,5 @@ W ramach zadania VI należy zredukować błędy typu: Bugs, Security Hotspots, V
 
 ✅ 5.0 Zredukować duplikaty kodu do 0%
 
+Kod: [folder](https://github.com/homosum1/projektowanie_obiektowe/tree/main/zadanie_06)
+
