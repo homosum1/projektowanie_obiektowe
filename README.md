@@ -108,16 +108,16 @@ W ramach zadania VI należy zredukować błędy typu: Bugs, Security Hotspots, V
 
 Kod: [folder](https://github.com/homosum1/projektowanie_obiektowe/tree/main/zadanie_06)
 
---
+---
 
 ### Zad 7 Mobile first (Android)
 
-3.0 stworzenie listy kategorii oraz produktów
+❌ 3.0 stworzenie listy kategorii oraz produktów
 
-3.5 dodać koszyk
+❌ 3.5 dodać koszyk
 
-4.0 stworzyć bazę w Realmie
+❌ 4.0 stworzyć bazę w Realmie
 
-4.5 dodać płatności w Stripe
+❌ 4.5 dodać płatności w Stripe
 
-5.0 logowanie i rejestrację via Oauth2 dodać
+❌ 5.0 logowanie i rejestrację via Oauth2 dodać
