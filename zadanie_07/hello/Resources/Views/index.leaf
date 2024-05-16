@@ -1,9 +1,8 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Items List</title>
+    <title>Dostępne przedmioty</title>
     <style>
         table {
             width: 100%;
@@ -13,13 +12,13 @@
             border: 1px solid black;
         }
         th, td {
-            padding: 8px;
             text-align: left;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
-    <h1>Items List</h1>
+    <h1>Dostępne przedmioty</h1>
     <table>
         <thead>
             <tr>
@@ -31,16 +30,18 @@
             </tr>
         </thead>
         <tbody>
-            #for(item in items) {
+            #for(item in items):
                 <tr>
-                    <td>#(item.id?.uuidString ?? "N/A")</td>
+                    <td>#(item.id)</td>
                     <td>#(item.name)</td>
                     <td>#(item.price)</td>
                     <td>#(item.quantity)</td>
                     <td>#(item.icon)</td>
                 </tr>
-            }
+            #endfor
         </tbody>
     </table>
+    <br></br>
+    <a href="http://127.0.0.1:8080/addItem">dodaj element</a>
 </body>
 </html>
