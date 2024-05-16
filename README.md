@@ -116,7 +116,7 @@ Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako silnik s
 
 ✅ 3.0 Należy stworzyć kontroler wraz z modele Produktów zgodny z CRUD w ORM Fluent
 
-❌ 3.5 Należy stworzyć szablony w Leaf
+✅ 3.5 Należy stworzyć szablony w Leaf
 
 ❌ 4.0 Należy stworzyć drugi model oraz kontroler Kategorii wraz z relacją
 
