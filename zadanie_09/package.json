@@ -1,0 +1,13 @@
+{
+  "name": "zadanie_06",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tester.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.20.0",
+    "sequelize": "^6.37.3"
+  }
+}
