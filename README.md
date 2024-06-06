@@ -137,3 +137,5 @@ Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako silnik s
 ❌ 4.5 dodać płatności w Stripe
 
 ❌ 5.0 logowanie i rejestrację via Oauth2 dodać
+
+Kod: [folder](https://github.com/homosum1/projektowanie_obiektowe/tree/main/zadanie_08)
