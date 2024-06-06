@@ -128,9 +128,9 @@ Proszę napisać prostą aplikację w Vaporze, wykorzystując Leaf jako silnik s
 
 ### Zad 8 Mobile first (Android)
 
-❌ 3.0 stworzenie listy kategorii oraz produktów
+✅ 3.0 stworzenie listy kategorii oraz produktów
 
-❌ 3.5 dodać koszyk
+✅ 3.5 dodać koszyk
 
 ❌ 4.0 stworzyć bazę w Realmie
 
